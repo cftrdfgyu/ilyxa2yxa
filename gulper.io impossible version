@@ -1,0 +1,38 @@
+// ==UserScript==
+// @name         gulper.io impossible version
+// @namespace    http://tampermonkey.net/
+// @version      IMPOSSIBLE
+// @description  Gulper.io, but it's impossible...
+// @author       shed_modz_
+// @match        gulper.io
+// @grant        none
+// ==/UserScript==
+
+    document.addEventListener("keydown", mod, false);
+
+    function mod(i) {
+      if (i.keyCode == "38") {//up arrow
+        window.alert("IMPOSSIBLE~");
+      }
+      if (i.keyCode == "39") {//right arrow
+        window.alert("IMPOSSIBLE~");
+      }
+      if (i.keyCode == "37") {//left arrow
+        window.alert("IMPOSSIBLE~");
+      }
+      if (i.keyCode == "40") {
+        window.alert("IMPOSSIBLE~");
+      }
+            if (i.keyCode == "87") {//up arrow
+        window.alert("IMPOSSIBLE~");
+      }
+      if (i.keyCode == "65") {//right arrow
+        window.alert("IMPOSSIBLE~");
+      }
+      if (i.keyCode == "83") {//left arrow
+        window.alert("IMPOSSIBLE~");
+      }
+      if (i.keyCode == "68") {
+        window.alert("IMPOSSIBLE~");
+      }
+    }
